@@ -1,6 +1,9 @@
+
 # Bot and Gender Profiling Project 
-Welcome to my **Bot and Gender Profiling Project**!  This folder contains all the code and resources needed to run experiments for bot classification and gender detection. 
----
+Welcome to my **Bot and Gender Profiling Project**!  
+
+This folder contains all the code and resources needed to run experiments for bot classification and gender detection.
+
 ## Getting Started:
 To prepare the necessary files for this project: 
 1.  **Run the preprocessing scripts:** 
@@ -10,17 +13,19 @@ To prepare the necessary files for this project:
 ## Experiment Files
 The repository includes several notebooks for different analyses: 
 ### Part-of-Speech Tags Analysis  
--  **`pos.ipynb`**: Contains the experiment using **POS tags** for bot detection. 
+-**`pos.ipynb`**: Contains the experiment using **POS tags** for bot detection. 
 ### Topic Modeling for Bots  
 -**`topic.ipynb`**: Contains the implementation for **topic modeling** aimed at bot detection. 
 ### Emotion Classifier  
 -**`emotion_classifier.ipynb`**: Runs the **emotion classifier** analysis using the BERT-Emotions-Classifier. 
     - **Dependency**: Download the pre-trained [BERT-Emotions-Classifier](https://huggingface.co/ayoubkirouane/BERT-Emotions-Classifier). 
 ### Gender Detection Analysis
-- **`gender_detection.ipynb`**: Performs the same analyses as mentioned above but focuses on **gender detection** instead of bot detection. 
+-**`gender_detection.ipynb`**: Performs the same analyses as mentioned above but focuses on **gender detection** instead of bot detection. 
 ### One-Step Classifier  
--  **`one-step.ipynb`**: Implements a one-step classifier to directly classify between bots, males, and females. 
---- 
+
+-**`one-step.ipynb`**: Implements a **one-step classifier** to directly classify between bots, males, and females.
+
+ 
 ## How to Use  
 1. Start by running the preprocessing scripts to prepare the data: 
     -  `preprocessing.ipynb`  
